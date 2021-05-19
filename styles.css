@@ -1,7 +1,44 @@
+body {
+     
+     text-align: center;
+     background-color: #ffffff;
+}
+
 h1 {
-    color: red;
+    color: black;
+    font-family: aldo;
+    font-size: 500%;
+    animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
 
 p {
-    color: blue;
+    color: black;
+    font-size: 200%;
+    
 }
+
+img {
+    width: 50%;
+}
+
+
+
+@keyframes text-focus-in {   /* Keyframes para animación de enfoque. */
+  0% {
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+
+
+@font-face {        /* fuente propia para el título */
+  font-family: aldo;
+  src: url(AldotheApache.ttf);
+}
+
+
