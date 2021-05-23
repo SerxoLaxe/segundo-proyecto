@@ -6,7 +6,7 @@ body {
 
 h1 {
     color: black;
-    font-family: aldo;
+    font-family: meshroom;
     font-size: 500%;
     animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
@@ -41,8 +41,8 @@ a {
 
 
 @font-face {        /* fuente propia para el título */
-  font-family: aldo;
-  src: url(AldotheApache.ttf);
+  font-family: meshroom;
+  src: url(./assets/TheMeshroomRegular.ttf);
 }
 
 

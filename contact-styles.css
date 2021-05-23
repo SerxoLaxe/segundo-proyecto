@@ -2,12 +2,22 @@ html, body {
     width: 100%;
     height: 100%;
     margin: 0px;
+    text-align: center;
   }
   body {
     background-color: rgb(30, 192, 177);
     transform: perspective(1400px) matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
     transform-style: preserve-3d;
+    text-align: center;
   }
+  
+  
+@font-face {        /* fuente propia para el título */
+  font-family: meshroom;
+  src: url(./assets/TheMeshroomRegular.ttf);
+}
+  
+  
   .gwd-img-16au {
     position: absolute;
     width: 70px;
@@ -96,4 +106,10 @@ html, body {
   .gwd-img-k1nk {
     left: 926px;
     top: 376px;
+  }
+
+  h1 {
+    color: black;
+    font-family: meshroom;
+    font-size: 500%;
   }
