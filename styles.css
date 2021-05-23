@@ -21,6 +21,10 @@ img {
     width: 50%;
 }
 
+a {
+  color: black;
+}
+
 
 
 @keyframes text-focus-in {   /* Keyframes para animación de enfoque. */
